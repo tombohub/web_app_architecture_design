@@ -11,7 +11,6 @@
 ### Crud
 
 - Crud part has following operations:
-- get all (read)
 - get by id (read)
 - create
 - update
@@ -19,11 +18,12 @@
 
 which corresponds to the database operations:
 
-- select all
 - select by id
 - insert
 - update
 - delete
+
+- select all belongs to queries because with more data we will include pagination with which we are entering filtered data domain. Altough pagination is common in web apps we are gonna put it in queries part of the app becuase filter is a filter and it's common to have filters by other criterias.
 
 - If there would be absolutelly no validation workflow would be:
 
